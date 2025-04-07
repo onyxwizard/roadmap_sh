@@ -15,9 +15,9 @@ A simple Command-Line Interface (CLI)  application to manage tasks efficiently. 
 ### Installation 💻 
 1. Clone the repository:
 ```bash
-git clone https://github.com/<your-username>/roadmap-sh.git
+git clone https://github.com/onyxwizard/roadmap_sh.git
 
-cd roadmap-sh/python-projects/task-tracker-cli
+cd roadmap-sh//python_projects/task_tracker
 ```
 
 2. Run the CLI application:
