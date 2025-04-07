@@ -49,11 +49,23 @@ python task_cli.py list
 
 ## Folder Structure 🗂️
 ```bash
-task_cli/: Contains the Python project files.
-task_cli.py: Main CLI entry point.
-tasks.json: Stores tasks in JSON format.
-models/: Core entity classes (e.g., Task).
-services/: Business logic (e.g., task management).
-utils/: Utility functions (e.g., file handling, CLI parsing
-
+task-tracker-cli/
+│
+├── task_cli/                    # Contains the Python project files
+│   ├── task_cli.py              # Main CLI entry point
+│   ├── tasks.json               # JSON file for task storage
+│   │
+│   ├── models/                  # Core entity classes
+│   │   └── task.py              # Task class
+│   │
+│   ├── services/                # Business logic
+│   │   └── task_service.py      # Task management logic
+│   │
+│   ├── utils/                   # Utilities
+│   │   ├── file_handler.py      # File system operations
+│   │   └── cli_parser.py        # CLI argument parsing
+│   │
+│   └── README.md                # Documentation for the project
+│
+└── README.md                    # Root-level documentation
 ```
